@@ -60,6 +60,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AliciaSolid
       objectReference: {fileID: 0}
+    - target: {fileID: 1290354923332855594, guid: e3d5d6e5a6b514bf3888915a5235c7bd,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7605a80061ead42cf9ed8daa24ae5c4b, type: 2}
     - target: {fileID: 6955437769625194333, guid: e3d5d6e5a6b514bf3888915a5235c7bd,
         type: 3}
       propertyPath: m_LocalPosition.x

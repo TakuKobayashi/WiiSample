@@ -12,7 +12,13 @@ public class WiiCharacterController : MonoBehaviour
     // 移動速度
     [SerializeField] private float MoveSpeedRate = 1f;
 
+    private Animator characterAnimator;
+    private bool isRide = false;
 
+    void Start()
+    {
+        characterAnimator = characterObject.GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -20,6 +26,21 @@ public class WiiCharacterController : MonoBehaviour
         {
             if (Wii.IsActive(i) && Wii.GetExpType(i) == 3)
             {
+                // 乗っていないのなら以降の処理はやらない
+                if (RideThreasoldWeight > Wii.GetTotalWeight(i))
+                {
+                    if (isRide)
+                    {
+                        characterAnimator.SetTrigger("Idle");
+                    }
+                    isRide = false;
+                    return;
+                }
+                if (!isRide)
+                {
+                    characterAnimator.SetTrigger("Walk");
+                    isRide = true;
+                }
                 // WiiFitの重心の方向にCharacterを向かせる
                 Vector2 theCenter = Wii.GetCenterOfBalance(i);
                 Vector3 currentCharacterPosition = characterObject.transform.position;
