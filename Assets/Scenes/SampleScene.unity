@@ -410,7 +410,7 @@ PrefabInstance:
     - target: {fileID: 4964058224018279255, guid: fbb6194f7ebef4019b6aefc658c70a07,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4964058224018279255, guid: fbb6194f7ebef4019b6aefc658c70a07,
         type: 3}
@@ -477,74 +477,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1490457312297237406, guid: fbb6194f7ebef4019b6aefc658c70a07,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbb6194f7ebef4019b6aefc658c70a07, type: 3}
---- !u!1001 &2009666560
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2104842182056139666, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_Name
-      value: BalanceBoardController
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2104842182056139667, guid: 6c23480ff35594215bc96a888bafba7b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6c23480ff35594215bc96a888bafba7b, type: 3}
