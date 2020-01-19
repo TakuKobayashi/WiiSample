@@ -44,7 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66cbf81254fe043b5b5e58e3eb29cf09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  relationalMoveCamera: {fileID: 0}
   characterObject: {fileID: 1357057464230279645}
+  RideThreasoldWeight: 15
+  MoveSpeedRate: 3
 --- !u!1001 &7312142534853286613
 PrefabInstance:
   m_ObjectHideFlags: 0
